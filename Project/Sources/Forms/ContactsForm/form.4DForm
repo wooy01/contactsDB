@@ -1,0 +1,378 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Contact Database App",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"ContactListBox": {
+					"type": "listbox",
+					"left": 21,
+					"top": 180,
+					"width": 1424,
+					"height": 410,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"method": "ObjectMethods/ContactListBox.4dm",
+					"listboxType": "collection",
+					"selectionMode": "multiple",
+					"headerHeight": "1em",
+					"dataSource": "Form:C1466.ContactSelection",
+					"currentItemSource": "Form:C1466.ContactEntity",
+					"selectedItemsSource": "Form:C1466.ContactEntities",
+					"resizingMode": "legacy",
+					"columns": [
+						{
+							"header": {
+								"text": "First Name",
+								"name": "FirstName"
+							},
+							"name": "FirstNameColumn",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.FirstName"
+						},
+						{
+							"header": {
+								"name": "LastName",
+								"text": "Last Name"
+							},
+							"name": "LastNameColumn",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.LastName"
+						},
+						{
+							"header": {
+								"name": "Nickname",
+								"text": "Nickname"
+							},
+							"name": "NicknameColumn",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.Nickname"
+						},
+						{
+							"header": {
+								"name": "Suffix",
+								"text": "Suffix"
+							},
+							"name": "SuffixColumn",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.Suffix",
+							"width": 100
+						},
+						{
+							"header": {
+								"name": "HomeAddress",
+								"text": "Home Address"
+							},
+							"name": "HomeAddressColumn",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.HomeAddress",
+							"width": 180
+						},
+						{
+							"header": {
+								"name": "BusinessAddress",
+								"text": "Business Address"
+							},
+							"name": "BusinessAddressColumn",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.BusinessAddress",
+							"width": 180
+						},
+						{
+							"header": {
+								"name": "Title",
+								"text": "Title"
+							},
+							"name": "TitleColumn",
+							"footer": {
+								"name": "Footer7"
+							},
+							"width": 128,
+							"dataSource": "This:C1470.Title"
+						},
+						{
+							"header": {
+								"name": "Department",
+								"text": "Department"
+							},
+							"name": "DepartmentColumn",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.Department"
+						},
+						{
+							"header": {
+								"name": "Company",
+								"text": "Company"
+							},
+							"name": "CompanyColumn",
+							"footer": {
+								"name": "Footer9"
+							},
+							"dataSource": "This:C1470.Company"
+						},
+						{
+							"header": {
+								"name": "IsEmployee",
+								"text": "IsEmployee"
+							},
+							"name": "IsEmployeeColumn",
+							"footer": {
+								"name": "Footer10"
+							},
+							"dataSource": "This:C1470.IsEmployee",
+							"dataSourceTypeHint": "boolean",
+							"width": 90
+						},
+						{
+							"header": {
+								"name": "IsITLiaison",
+								"text": "IsITLiaison"
+							},
+							"name": "IsITLiaisonColumn",
+							"footer": {
+								"name": "Footer11"
+							},
+							"dataSource": "This:C1470.IsITLiaison",
+							"dataSourceTypeHint": "boolean",
+							"width": 90
+						}
+					]
+				},
+				"Search": {
+					"type": "text",
+					"text": "Search:",
+					"top": 133,
+					"left": 21,
+					"width": 71,
+					"height": 22,
+					"fontSize": 18
+				},
+				"SearchText": {
+					"type": "input",
+					"left": 102,
+					"top": 136,
+					"width": 509,
+					"height": 17,
+					"method": "ObjectMethods/SearchText.4dm",
+					"events": [
+						"onLosingFocus",
+						"onAfterEdit"
+					],
+					"dataSource": ""
+				},
+				"Title1": {
+					"type": "text",
+					"text": "Contact Database",
+					"top": 32,
+					"left": 608,
+					"width": 221,
+					"height": 29,
+					"fontTheme": "additional",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"textDecoration": "none"
+				},
+				"AddContactButton": {
+					"type": "button",
+					"text": "Add Contact",
+					"top": 610,
+					"left": 21,
+					"width": 126,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/AddContactButton.4dm"
+				},
+				"EditContact": {
+					"type": "button",
+					"text": "Edit Contact",
+					"top": 610,
+					"left": 155,
+					"width": 126,
+					"height": 38,
+					"events": [
+						"onClick"
+					]
+				},
+				"EditContactButton": {
+					"type": "button",
+					"text": "Edit Contact",
+					"top": 610,
+					"left": 155,
+					"width": 126,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/EditContactButton.4dm"
+				},
+				"DeleteContactButton": {
+					"type": "button",
+					"text": "Delete Contact",
+					"top": 610,
+					"left": 288,
+					"width": 126,
+					"height": 38,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/DeleteContactButton.4dm"
+				},
+				"SearchContactListBox": {
+					"type": "listbox",
+					"left": 102,
+					"top": 156,
+					"width": 509,
+					"height": 260,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"method": "ObjectMethods/SearchContactListBox.4dm",
+					"listboxType": "collection",
+					"selectionMode": "multiple",
+					"headerHeight": "1em",
+					"dataSource": "Form:C1466.SearchContactSelection",
+					"currentItemSource": "Form:C1466.ContactEntity",
+					"selectedItemsSource": "Form:C1466.ContactEntities",
+					"resizingMode": "legacy",
+					"visibility": "hidden",
+					"fill": "#808080",
+					"sizingY": "fixed",
+					"sizingX": "fixed",
+					"dragging": "none",
+					"dropping": "none",
+					"columns": [
+						{
+							"header": {
+								"text": "First Name",
+								"name": "FirstName1"
+							},
+							"name": "FirstNameColumn1",
+							"footer": {
+								"name": "Footer12"
+							},
+							"dataSource": "This:C1470.FirstName",
+							"width": 95
+						},
+						{
+							"header": {
+								"name": "LastName1",
+								"text": "Last Name"
+							},
+							"name": "LastNameColumn1",
+							"footer": {
+								"name": "Footer13"
+							},
+							"dataSource": "This:C1470.LastName",
+							"width": 95
+						},
+						{
+							"header": {
+								"name": "Title2",
+								"text": "Title"
+							},
+							"name": "TitleColumn1",
+							"footer": {
+								"name": "Footer18"
+							},
+							"width": 95,
+							"dataSource": "This:C1470.Title"
+						},
+						{
+							"header": {
+								"name": "Department1",
+								"text": "Department"
+							},
+							"name": "DepartmentColumn1",
+							"footer": {
+								"name": "Footer19"
+							},
+							"dataSource": "This:C1470.Department",
+							"width": 95
+						},
+						{
+							"header": {
+								"name": "Company1",
+								"text": "Company"
+							},
+							"name": "CompanyColumn1",
+							"footer": {
+								"name": "Footer20"
+							},
+							"dataSource": "This:C1470.Company",
+							"width": 95
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 161,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

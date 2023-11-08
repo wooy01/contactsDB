@@ -1,0 +1,17 @@
+{
+	"Type": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Business",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Personal",
+				"ref": 2,
+				"editable": true
+			}
+		]
+	}
+}

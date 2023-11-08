@@ -1,0 +1,228 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Contact List",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"listbox": {
+					"type": "listbox",
+					"dataSource": "Form:C1466.contactSelection",
+					"top": 10,
+					"left": 10,
+					"width": 1450,
+					"height": 300,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "collection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"method": "ObjectMethods/listbox.4dm",
+					"columns": [
+						{
+							"name": "BusinessAddress",
+							"dataSource": "This:C1470.BusinessAddress",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Business Address",
+								"name": "Header1"
+							},
+							"footer": {
+								"name": "1"
+							}
+						},
+						{
+							"name": "Company",
+							"dataSource": "This:C1470.Company",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Company",
+								"name": "2"
+							},
+							"footer": {
+								"name": "3"
+							}
+						},
+						{
+							"name": "Department",
+							"dataSource": "This:C1470.Department",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Department",
+								"name": "4"
+							},
+							"footer": {
+								"name": "5"
+							}
+						},
+						{
+							"name": "FirstName",
+							"dataSource": "This:C1470.FirstName",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "First Name",
+								"name": "6"
+							},
+							"footer": {
+								"name": "7"
+							}
+						},
+						{
+							"name": "HomeAddress",
+							"dataSource": "This:C1470.HomeAddress",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Home Address",
+								"name": "8"
+							},
+							"footer": {
+								"name": "9"
+							}
+						},
+						{
+							"name": "IsEmployee",
+							"dataSource": "This:C1470.IsEmployee",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Is Employee",
+								"name": "10"
+							},
+							"footer": {
+								"name": "11"
+							},
+							"dataSourceTypeHint": "boolean"
+						},
+						{
+							"name": "IsITLiaison",
+							"dataSource": "This:C1470.IsITLiaison",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Is Itliaison",
+								"name": "12"
+							},
+							"footer": {
+								"name": "13"
+							},
+							"dataSourceTypeHint": "boolean"
+						},
+						{
+							"name": "LastName",
+							"dataSource": "This:C1470.LastName",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Last Name",
+								"name": "14"
+							},
+							"footer": {
+								"name": "15"
+							}
+						},
+						{
+							"name": "Nickname",
+							"dataSource": "This:C1470.Nickname",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Nickname",
+								"name": "16"
+							},
+							"footer": {
+								"name": "17"
+							}
+						},
+						{
+							"name": "PrimaryID",
+							"dataSource": "This:C1470.PrimaryID",
+							"width": 120,
+							"enterable": false,
+							"header": {
+								"text": "Primary id",
+								"name": "18"
+							},
+							"footer": {
+								"name": "19"
+							}
+						},
+						{
+							"name": "Suffix",
+							"dataSource": "This:C1470.Suffix",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Suffix",
+								"name": "20"
+							},
+							"footer": {
+								"name": "21"
+							}
+						},
+						{
+							"name": "Title",
+							"dataSource": "This:C1470.Title",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Title",
+								"name": "22"
+							},
+							"footer": {
+								"name": "23"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"Sources/Forms/AddContactForm/form.4DForm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/AddEmailForm/form.4DForm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/AddPhoneForm/form.4DForm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/ContactsForm/form.4DForm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/EditContactForm/form.4DForm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	}
+}

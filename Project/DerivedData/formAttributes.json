@@ -1,0 +1,35 @@
+{
+	"forms": {
+		"EditContactForm": {
+			"timeStamp": "2023-06-19T00:56:38Z",
+			"destination": "detailScreen"
+		},
+		"PhoneList": {
+			"timeStamp": "2023-06-08T20:03:25Z",
+			"destination": "detailScreen"
+		},
+		"AddEmailForm": {
+			"timeStamp": "2023-06-19T00:29:57Z",
+			"destination": "detailScreen"
+		},
+		"ContactList": {
+			"timeStamp": "2023-11-06T19:58:46Z",
+			"destination": "detailScreen"
+		},
+		"ContactsForm": {
+			"timeStamp": "2023-11-06T19:58:46Z",
+			"destination": "detailScreen"
+		},
+		"AddPhoneForm": {
+			"timeStamp": "2023-06-11T14:33:46Z",
+			"destination": "detailScreen"
+		},
+		"AddContactForm": {
+			"timeStamp": "2023-11-06T20:03:37Z",
+			"destination": "detailScreen"
+		},
+		"EmailList": {
+			"timeStamp": "2023-11-06T19:58:46Z"
+		}
+	}
+}

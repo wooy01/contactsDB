@@ -1,0 +1,212 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Edit Contact",
+					"top": 27,
+					"left": 165,
+					"width": 138,
+					"height": 29,
+					"fontSize": 24
+				},
+				"Input": {
+					"type": "input",
+					"left": 169,
+					"top": 92,
+					"width": 138,
+					"height": 17
+				},
+				"FirstName": {
+					"type": "text",
+					"text": "First Name",
+					"top": 92,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Input1": {
+					"type": "input",
+					"left": 169,
+					"top": 128,
+					"width": 138,
+					"height": 17
+				},
+				"LastName": {
+					"type": "text",
+					"text": "Last Name",
+					"top": 128,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Input2": {
+					"type": "input",
+					"left": 169,
+					"top": 165,
+					"width": 138,
+					"height": 17
+				},
+				"Nickname": {
+					"type": "text",
+					"text": "Nickname",
+					"top": 165,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Input3": {
+					"type": "input",
+					"left": 169,
+					"top": 201,
+					"width": 138,
+					"height": 17
+				},
+				"Suffix": {
+					"type": "text",
+					"text": "Suffix",
+					"top": 202,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Input4": {
+					"type": "input",
+					"left": 169,
+					"top": 239,
+					"width": 262,
+					"height": 33
+				},
+				"HomeAddress": {
+					"type": "text",
+					"text": "Home Address",
+					"top": 239,
+					"left": 47,
+					"width": 96,
+					"height": 16
+				},
+				"Input5": {
+					"type": "input",
+					"left": 169,
+					"top": 285,
+					"width": 262,
+					"height": 33
+				},
+				"BusinessAddress": {
+					"type": "text",
+					"text": "Business Address",
+					"top": 285,
+					"left": 47,
+					"width": 118,
+					"height": 31
+				},
+				"Title": {
+					"type": "text",
+					"text": "Title",
+					"top": 374,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"text": "Sweetwater Employee",
+					"top": 338,
+					"left": 47,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					]
+				},
+				"Input6": {
+					"type": "input",
+					"left": 169,
+					"top": 374,
+					"width": 138,
+					"height": 17
+				},
+				"Department": {
+					"type": "text",
+					"text": "Department",
+					"top": 404,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"Input7": {
+					"type": "input",
+					"left": 169,
+					"top": 404,
+					"width": 138,
+					"height": 17
+				},
+				"ITLiaison": {
+					"type": "checkbox",
+					"text": "Primary IT Liaison",
+					"top": 440,
+					"left": 47,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					]
+				},
+				"EditButton": {
+					"type": "button",
+					"text": "Edit",
+					"top": 495,
+					"left": 165,
+					"width": 124,
+					"height": 46,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 83,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

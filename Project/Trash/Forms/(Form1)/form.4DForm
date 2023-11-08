@@ -1,0 +1,166 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "text default",
+					"top": 54,
+					"left": 67,
+					"width": 90,
+					"height": 31
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 547,
+					"left": 946,
+					"width": 94,
+					"height": 26,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Input": {
+					"type": "input",
+					"left": 153,
+					"top": 47,
+					"width": 149,
+					"height": 33
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 50,
+					"top": 100,
+					"width": 664,
+					"height": 259,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							}
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Header3"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							}
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Header4"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							}
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Header5"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							}
+						}
+					]
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"left": 61,
+					"top": 393,
+					"width": 345,
+					"height": 126,
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Subform": {
+					"type": "subform",
+					"left": 509,
+					"top": 373,
+					"width": 358,
+					"height": 137,
+					"table": "",
+					"listForm": "",
+					"detailForm": ""
+				}
+			}
+		}
+	],
+	"geometryStamp": 44,
+	"formSizeAnchor": "Button",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

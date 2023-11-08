@@ -1,0 +1,320 @@
+{
+	"Sources/Triggers/table_1.4dm": {
+		"left": 816,
+		"top": 312,
+		"width": 1000,
+		"height": 488
+	},
+	"Sources/Methods/Program.4dm": {
+		"left": 17,
+		"top": 392,
+		"width": 717,
+		"height": 488
+	},
+	"Sources/Classes/Person.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Classes/Rental.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Methods/Jacj_test.4dm": {
+		"left": 504,
+		"top": 252,
+		"width": 895,
+		"height": 735
+	},
+	"Sources/Methods/Ywoo_test.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1049,
+		"height": 689
+	},
+	"Sources/Forms/Form1/ObjectMethods/Button.4dm": {
+		"left": 2675,
+		"top": 297,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/Form1/method.4dm": {
+		"left": 35,
+		"top": 198,
+		"width": 636,
+		"height": 623
+	},
+	"Sources/Methods/ContactsForm.4dm": {
+		"left": 885,
+		"top": 278,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/ContactsForm/method.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/List Box.4dm": {
+		"left": 1113,
+		"top": 630,
+		"width": 773,
+		"height": 375
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/AddContactButton.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/EmailList/method.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Forms/EmailList/ObjectMethods/listbox.4dm": {
+		"left": 878,
+		"top": 371,
+		"width": 965,
+		"height": 623
+	},
+	"Sources/Methods/ReloadEmailTable.4dm": {
+		"left": 883,
+		"top": 289,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Methods/ReloadPhoneTable.4dm": {
+		"left": 1037,
+		"top": 371,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Methods/ReloadContactTable.4dm": {
+		"left": 711,
+		"top": 331,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Methods/OpenAddressInputForm.4dm": {
+		"left": 2737,
+		"top": 387,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/ContactList/ObjectMethods/listbox.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Forms/ContactList/method.4dm": {
+		"left": 4,
+		"top": 214,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/PhoneList/method.4dm": {
+		"left": 1023,
+		"top": 381,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/AddContactForm/ObjectMethods/AddButton.4dm": {
+		"left": 8,
+		"top": 139,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/EditContact1.4dm": {
+		"left": 1926,
+		"top": 444,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/DeleteContact.4dm": {
+		"left": 925,
+		"top": 157,
+		"width": 965,
+		"height": 623
+	},
+	"Sources/Forms/AddContactForm/method.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Forms/EditContactForm/method.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/EditContact.4dm": {
+		"left": 2514,
+		"top": 396,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/EditContactButton.4dm": {
+		"left": 0,
+		"top": 83,
+		"width": 1440,
+		"height": 767
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/DeleteContactButton1.4dm": {
+		"left": 2514,
+		"top": 396,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/DeleteContactButton.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/FirstNameInput.4dm": {
+		"left": 2812,
+		"top": 415,
+		"width": 1000,
+		"height": 623
+	},
+	"Sources/Methods/OpenContactForm.4dm": {
+		"left": 113,
+		"top": 139,
+		"width": 1797,
+		"height": 886
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/SearchText.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/PhonePlusButton.4dm": {
+		"left": 100,
+		"top": 250,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/PhoneMinusButton.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/AddPhoneForm/ObjectMethods/AddButton.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/EmailPlusButton.4dm": {
+		"left": 6,
+		"top": 139,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/AddEmailForm/ObjectMethods/AddButton.4dm": {
+		"left": 211,
+		"top": 221,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/EditButton.4dm": {
+		"left": 8,
+		"top": 139,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/EmailMinusButton.4dm": {
+		"left": 2,
+		"top": 139,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/AddPhoneForm/method.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/SearchContactListBox.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/ContactsForm/ObjectMethods/ContactListBox.4dm": {
+		"left": 0,
+		"top": 111,
+		"width": 1440,
+		"height": 739
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/HomeAddressInput.4dm": {
+		"left": 824,
+		"top": 111,
+		"width": 1340,
+		"height": 842
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/BusinessAddressInput.4dm": {
+		"left": 47,
+		"top": 103,
+		"width": 1010,
+		"height": 916
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/GoogleMapWebArea.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Methods/TruncateAll.4dm": {
+		"left": 882,
+		"top": 165,
+		"width": 1000,
+		"height": 623
+	},
+	"Trash/Methods/(OutputMessages).4dm": {
+		"left": 15,
+		"top": 264,
+		"width": 1000,
+		"height": 488
+	},
+	"Sources/Forms/AddContactForm/ObjectMethods/IsEmployee.4dm": {
+		"left": 1928,
+		"top": 106,
+		"width": 1920,
+		"height": 911
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/MoreInfoButton.4dm": {
+		"left": 128,
+		"top": 125,
+		"width": 807,
+		"height": 916
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/EmployeeIDInput.4dm": {
+		"left": 4,
+		"top": 214,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/AddEmailForm/method.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	},
+	"Sources/Forms/EditContactForm/ObjectMethods/PhoneListBox.4dm": {
+		"left": 6,
+		"top": 192,
+		"width": 1914,
+		"height": 888
+	}
+}

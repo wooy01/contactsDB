@@ -1,0 +1,124 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Add Email",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Email",
+					"top": 123,
+					"left": 40,
+					"width": 103,
+					"height": 16
+				},
+				"EmailInput": {
+					"type": "input",
+					"left": 147,
+					"top": 122,
+					"width": 206,
+					"height": 17,
+					"dataSource": "Form:C1466.Email"
+				},
+				"Title": {
+					"type": "text",
+					"text": "Add Email",
+					"top": 13,
+					"left": 115,
+					"width": 133,
+					"height": 29,
+					"fontSize": 24
+				},
+				"PrimaryCheckBox": {
+					"type": "checkbox",
+					"text": "Primary",
+					"top": 159,
+					"left": 40,
+					"width": 89,
+					"height": 33,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.Primary"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Type",
+					"top": 83,
+					"left": 40,
+					"width": 95,
+					"height": 16
+				},
+				"AddButton": {
+					"type": "button",
+					"text": "Add",
+					"top": 204,
+					"left": 138,
+					"width": 97,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/AddButton.4dm"
+				},
+				"Type": {
+					"type": "dropdown",
+					"left": 147,
+					"top": 83,
+					"width": 206,
+					"height": 25,
+					"events": [
+						"onDataChange"
+					],
+					"dataSourceTypeHint": "object",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Type"
+					},
+					"dataSource": "Form:C1466.Type"
+				}
+			}
+		}
+	],
+	"geometryStamp": 19,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

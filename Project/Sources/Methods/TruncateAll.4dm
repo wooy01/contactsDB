@@ -1,0 +1,6 @@
+//%attributes = {}
+TRUNCATE TABLE:C1051([Contact:2])
+TRUNCATE TABLE:C1051([Address:6])
+TRUNCATE TABLE:C1051([Email:5])
+TRUNCATE TABLE:C1051([Phone:7])
+

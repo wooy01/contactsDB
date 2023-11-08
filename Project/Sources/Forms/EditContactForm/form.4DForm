@@ -1,0 +1,493 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Edit Contact",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Edit Contact",
+					"top": 27,
+					"left": 462,
+					"width": 138,
+					"height": 29,
+					"fontSize": 24
+				},
+				"FirstNameInput": {
+					"type": "input",
+					"left": 162,
+					"top": 108,
+					"width": 138,
+					"height": 17,
+					"method": "",
+					"dataSource": "Form:C1466.FirstName"
+				},
+				"FirstName": {
+					"type": "text",
+					"text": "First Name",
+					"top": 108,
+					"left": 40,
+					"width": 112,
+					"height": 16
+				},
+				"LastNameInput": {
+					"type": "input",
+					"left": 162,
+					"top": 135,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.LastName"
+				},
+				"LastName": {
+					"type": "text",
+					"text": "Last Name",
+					"top": 135,
+					"left": 40,
+					"width": 112,
+					"height": 16
+				},
+				"NicknameInput": {
+					"type": "input",
+					"left": 162,
+					"top": 162,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.Nickname"
+				},
+				"Nickname": {
+					"type": "text",
+					"text": "Nickname",
+					"top": 162,
+					"left": 40,
+					"width": 112,
+					"height": 16
+				},
+				"SuffixInput": {
+					"type": "input",
+					"left": 162,
+					"top": 189,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.Suffix"
+				},
+				"Suffix": {
+					"type": "text",
+					"text": "Suffix",
+					"top": 190,
+					"left": 40,
+					"width": 112,
+					"height": 16
+				},
+				"HomeAddressInput": {
+					"type": "input",
+					"left": 162,
+					"top": 219,
+					"width": 338,
+					"height": 33,
+					"dataSource": "Form:C1466.HomeAddress",
+					"events": [
+						"onDoubleClick",
+						"onAfterKeystroke"
+					],
+					"method": "ObjectMethods/HomeAddressInput.4dm"
+				},
+				"HomeAddress": {
+					"type": "text",
+					"text": "Home Address",
+					"top": 219,
+					"left": 40,
+					"width": 96,
+					"height": 16
+				},
+				"BusinessAddressInput": {
+					"type": "input",
+					"left": 162,
+					"top": 270,
+					"width": 338,
+					"height": 33,
+					"dataSource": "Form:C1466.BusinessAddress",
+					"events": [
+						"onDoubleClick",
+						"onAfterKeystroke"
+					],
+					"method": "ObjectMethods/BusinessAddressInput.4dm"
+				},
+				"BusinessAddress": {
+					"type": "text",
+					"text": "Business Address",
+					"top": 265,
+					"left": 40,
+					"width": 118,
+					"height": 31
+				},
+				"Title": {
+					"type": "text",
+					"text": "Title",
+					"top": 152,
+					"left": 555,
+					"width": 112,
+					"height": 16
+				},
+				"IsEmployee": {
+					"type": "checkbox",
+					"text": "Is Employee",
+					"top": 91,
+					"left": 555,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.IsEmployee"
+				},
+				"TitleInput": {
+					"type": "input",
+					"left": 677,
+					"top": 152,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Title"
+				},
+				"Department": {
+					"type": "text",
+					"text": "Department",
+					"top": 178,
+					"left": 555,
+					"width": 112,
+					"height": 16
+				},
+				"IsITLiaison": {
+					"type": "checkbox",
+					"text": "Is Primary IT Liaison",
+					"top": 233,
+					"left": 555,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.IsITLiaison"
+				},
+				"EditButton": {
+					"type": "button",
+					"text": "Edit",
+					"top": 677,
+					"left": 694,
+					"width": 124,
+					"height": 46,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/EditButton.4dm"
+				},
+				"DpartmentInput": {
+					"type": "input",
+					"left": 677,
+					"top": 178,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Department"
+				},
+				"PhoneListBox": {
+					"type": "listbox",
+					"left": 555,
+					"top": 322,
+					"width": 492,
+					"height": 108,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.PhoneSelection",
+					"currentItemSource": "Form:C1466.PhoneEntity",
+					"selectedItemsSource": "Form:C1466.PhoneEntities",
+					"resizingMode": "legacy",
+					"method": "ObjectMethods/PhoneListBox.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Phone",
+								"name": "Phone"
+							},
+							"name": "PhoneColumn",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.Phone"
+						},
+						{
+							"header": {
+								"name": "Extension",
+								"text": "Extension"
+							},
+							"name": "ExtensionColumn",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.Extension"
+						},
+						{
+							"header": {
+								"name": "Type",
+								"text": "Type"
+							},
+							"name": "PhoneTypeColumn",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.Type"
+						},
+						{
+							"header": {
+								"name": "PrimaryPhone",
+								"text": "Primary"
+							},
+							"name": "PrimaryPhoneColumn",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.Primary",
+							"dataSourceTypeHint": "boolean",
+							"width": 90
+						}
+					]
+				},
+				"EmailListBox": {
+					"type": "listbox",
+					"left": 555,
+					"top": 485,
+					"width": 384,
+					"height": 109,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.EmailSelection",
+					"currentItemSource": "Form:C1466.EmailEntity",
+					"selectedItemsSource": "Form:C1466.EmailEntities",
+					"resizingMode": "legacy",
+					"columns": [
+						{
+							"header": {
+								"text": "Email",
+								"name": "Email"
+							},
+							"name": "EmailColumn",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.Email",
+							"width": 150
+						},
+						{
+							"header": {
+								"name": "Type1",
+								"text": "Type"
+							},
+							"name": "EmailTypeColumn",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.Type"
+						},
+						{
+							"header": {
+								"name": "PrimaryEmail",
+								"text": "Primary"
+							},
+							"name": "PrimaryEmailColumn",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.Primary",
+							"dataSourceTypeHint": "boolean",
+							"width": 90
+						}
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Phone",
+					"top": 301,
+					"left": 557,
+					"width": 98,
+					"height": 16
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Email",
+					"top": 465,
+					"left": 557,
+					"width": 87,
+					"height": 16
+				},
+				"PhonePlusButton": {
+					"type": "button",
+					"text": "+",
+					"top": 286,
+					"left": 617,
+					"width": 38,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"style": "roundedBevel",
+					"fontSize": 18,
+					"method": "ObjectMethods/PhonePlusButton.4dm"
+				},
+				"PhoneMinusButton": {
+					"type": "button",
+					"text": "-",
+					"top": 286,
+					"left": 657,
+					"width": 38,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"style": "roundedBevel",
+					"fontSize": 18,
+					"method": "ObjectMethods/PhoneMinusButton.4dm"
+				},
+				"EmailPlusButton": {
+					"type": "button",
+					"text": "+",
+					"top": 450,
+					"left": 617,
+					"width": 38,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"style": "roundedBevel",
+					"fontSize": 18,
+					"method": "ObjectMethods/EmailPlusButton.4dm"
+				},
+				"EmailMinusButton": {
+					"type": "button",
+					"text": "-",
+					"top": 450,
+					"left": 657,
+					"width": 38,
+					"height": 31,
+					"events": [
+						"onClick"
+					],
+					"style": "roundedBevel",
+					"fontSize": 18,
+					"method": "ObjectMethods/EmailMinusButton.4dm"
+				},
+				"Company": {
+					"type": "text",
+					"text": "Company",
+					"top": 205,
+					"left": 555,
+					"width": 112,
+					"height": 16
+				},
+				"CompanyInput": {
+					"type": "input",
+					"left": 677,
+					"top": 205,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Company"
+				},
+				"GoogleMapWebArea": {
+					"type": "webArea",
+					"left": 40,
+					"top": 329,
+					"width": 460,
+					"height": 400,
+					"events": [
+						"onLoad",
+						"onGettingFocus"
+					],
+					"urlSource": "",
+					"method": "ObjectMethods/GoogleMapWebArea.4dm"
+				},
+				"EmployeeID": {
+					"type": "text",
+					"text": "EmployeeID",
+					"top": 125,
+					"left": 555,
+					"width": 112,
+					"height": 16
+				},
+				"EmployeeIDInput": {
+					"type": "input",
+					"left": 677,
+					"top": 125,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.EmployeeID",
+					"dataSourceTypeHint": "integer",
+					"method": "ObjectMethods/EmployeeIDInput.4dm"
+				},
+				"MoreInfoButton": {
+					"type": "button",
+					"text": "More Info",
+					"top": 122,
+					"left": 838,
+					"width": 204,
+					"height": 20,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"method": "ObjectMethods/MoreInfoButton.4dm",
+					"visibility": "hidden"
+				}
+			}
+		}
+	],
+	"geometryStamp": 295,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

@@ -1,0 +1,126 @@
+{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483631,
+			"previousTabType": "method",
+			"previousTabID": 2147483639,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "EditContactButton",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/EditContactButton.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483639,
+			"previousTabType": "method",
+			"previousTabID": 2147483615,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "AddContactButton",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/AddContactButton.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483615,
+			"previousTabType": "method",
+			"previousTabID": 2147483628,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "SearchText",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/SearchText.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483628,
+			"previousTabType": "method",
+			"previousTabID": 2147483616,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "ContactListBox",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/ContactListBox.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483616,
+			"previousTabType": "method",
+			"previousTabID": 2147483635,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "SearchContactListBox",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/SearchContactListBox.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483635,
+			"previousTabType": "method",
+			"previousTabID": 2147483617,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactsForm",
+				"objectName": "DeleteContactButton",
+				"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/DeleteContactButton.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483617,
+			"previousTabType": "form",
+			"previousTabID": 221,
+			"codeDescriptor": {
+				"type": 3,
+				"formName": "ContactsForm",
+				"methodPath": "/SOURCES/Forms/ContactsForm/method.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 221,
+			"previousTabType": "form",
+			"previousTabID": 225,
+			"formName": "EditContactForm"
+		},
+		{
+			"type": "form",
+			"id": 225,
+			"previousTabType": "form",
+			"previousTabID": 226,
+			"formName": "ContactsForm"
+		},
+		{
+			"type": "form",
+			"id": 226,
+			"previousTabType": "form",
+			"previousTabID": 223,
+			"formName": "AddPhoneForm"
+		},
+		{
+			"type": "form",
+			"id": 223,
+			"previousTabType": "form",
+			"previousTabID": 227,
+			"formName": "AddEmailForm"
+		},
+		{
+			"type": "form",
+			"id": 227,
+			"formName": "AddContactForm"
+		},
+		{
+			"type": "structure"
+		},
+		{
+			"type": "explorer"
+		}
+	]
+}

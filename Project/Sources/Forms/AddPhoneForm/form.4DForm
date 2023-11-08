@@ -1,0 +1,140 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Add Phone",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Phone Number",
+					"top": 123,
+					"left": 40,
+					"width": 103,
+					"height": 16
+				},
+				"PhoneInput": {
+					"type": "input",
+					"left": 155,
+					"top": 122,
+					"width": 176,
+					"height": 17,
+					"dataSource": "Form:C1466.Phone"
+				},
+				"Extension": {
+					"type": "text",
+					"text": "Extension",
+					"top": 160,
+					"left": 40,
+					"width": 103,
+					"height": 16
+				},
+				"ExtensionInput": {
+					"type": "input",
+					"left": 155,
+					"top": 159,
+					"width": 176,
+					"height": 17,
+					"dataSource": "Form:C1466.Extension"
+				},
+				"Title": {
+					"type": "text",
+					"text": "Add Phone",
+					"top": 13,
+					"left": 129,
+					"width": 133,
+					"height": 29,
+					"fontSize": 24
+				},
+				"PrimaryCheckBox": {
+					"type": "checkbox",
+					"text": "Primary",
+					"top": 196,
+					"left": 40,
+					"width": 89,
+					"height": 33,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.Primary"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Type",
+					"top": 83,
+					"left": 40,
+					"width": 95,
+					"height": 16
+				},
+				"AddButton": {
+					"type": "button",
+					"text": "Add",
+					"top": 237,
+					"left": 129,
+					"width": 97,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/AddButton.4dm"
+				},
+				"Type": {
+					"type": "dropdown",
+					"left": 155,
+					"top": 81,
+					"width": 180,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.Type",
+					"dataSourceTypeHint": "object",
+					"choiceList": {
+						"$ref": "/SOURCES/lists.json#/Type"
+					}
+				}
+			}
+		}
+	],
+	"geometryStamp": 48,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

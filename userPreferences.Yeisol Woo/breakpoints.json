@@ -1,0 +1,173 @@
+[
+	{
+		"line": 29,
+		"method": {
+			"type": 2,
+			"formName": "ContactsForm",
+			"objectName": "AddContactButton",
+			"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/AddContactButton.4dm"
+		}
+	},
+	{
+		"line": 50,
+		"method": {
+			"type": 2,
+			"formName": "AddContactForm",
+			"objectName": "AddButton",
+			"methodPath": "/SOURCES/Forms/AddContactForm/ObjectMethods/AddButton.4dm"
+		}
+	},
+	{
+		"line": 41,
+		"method": {
+			"type": 2,
+			"formName": "ContactsForm",
+			"objectName": "AddContactButton",
+			"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/AddContactButton.4dm"
+		}
+	},
+	{
+		"line": 11,
+		"method": {
+			"type": 2,
+			"formName": "AddEmailForm",
+			"objectName": "AddButton",
+			"methodPath": "/SOURCES/Forms/AddEmailForm/ObjectMethods/AddButton.4dm"
+		}
+	},
+	{
+		"line": 31,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "EditButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/EditButton.4dm"
+		}
+	},
+	{
+		"line": 16,
+		"method": {
+			"type": 2,
+			"formName": "ContactsForm",
+			"objectName": "DeleteContactButton",
+			"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/DeleteContactButton.4dm"
+		}
+	},
+	{
+		"line": 37,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "PhoneMinusButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/PhoneMinusButton.4dm"
+		}
+	},
+	{
+		"line": 35,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "EmailMinusButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/EmailMinusButton.4dm"
+		}
+	},
+	{
+		"line": 31,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "BusinessAddressInput",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/BusinessAddressInput.4dm"
+		}
+	},
+	{
+		"line": 23,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "BusinessAddressInput",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/BusinessAddressInput.4dm"
+		}
+	},
+	{
+		"line": 20,
+		"method": {
+			"type": 2,
+			"formName": "AddContactForm",
+			"objectName": "AddButton",
+			"methodPath": "/SOURCES/Forms/AddContactForm/ObjectMethods/AddButton.4dm"
+		}
+	},
+	{
+		"line": 38,
+		"method": {
+			"type": 2,
+			"formName": "ContactsForm",
+			"objectName": "EditContactButton",
+			"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/EditContactButton.4dm"
+		}
+	},
+	{
+		"line": 5,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "PhonePlusButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/PhonePlusButton.4dm"
+		}
+	},
+	{
+		"line": 39,
+		"method": {
+			"type": 2,
+			"formName": "AddContactForm",
+			"objectName": "AddButton",
+			"methodPath": "/SOURCES/Forms/AddContactForm/ObjectMethods/AddButton.4dm"
+		}
+	},
+	{
+		"line": 15,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "EmailPlusButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/EmailPlusButton.4dm"
+		}
+	},
+	{
+		"line": 21,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "PhonePlusButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/PhonePlusButton.4dm"
+		}
+	},
+	{
+		"line": 7,
+		"method": {
+			"type": 2,
+			"formName": "EditContactForm",
+			"objectName": "EditButton",
+			"methodPath": "/SOURCES/Forms/EditContactForm/ObjectMethods/EditButton.4dm"
+		}
+	},
+	{
+		"line": 4,
+		"method": {
+			"type": 2,
+			"formName": "AddContactForm",
+			"objectName": "AddButton",
+			"methodPath": "/SOURCES/Forms/AddContactForm/ObjectMethods/AddButton.4dm"
+		}
+	},
+	{
+		"line": 3,
+		"method": {
+			"type": 2,
+			"formName": "ContactsForm",
+			"objectName": "ContactListBox",
+			"methodPath": "/SOURCES/Forms/ContactsForm/ObjectMethods/ContactListBox.4dm"
+		}
+	}
+]

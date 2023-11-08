@@ -1,0 +1,258 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Add Contact",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Add Contact",
+					"top": 27,
+					"left": 165,
+					"width": 138,
+					"height": 29,
+					"fontSize": 24
+				},
+				"FirstNameInput": {
+					"type": "input",
+					"left": 169,
+					"top": 92,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.FirstName"
+				},
+				"FirstName": {
+					"type": "text",
+					"text": "First Name",
+					"top": 92,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"LastNameInput": {
+					"type": "input",
+					"left": 169,
+					"top": 128,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.LastName"
+				},
+				"LastName": {
+					"type": "text",
+					"text": "Last Name",
+					"top": 128,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"NicknameInput": {
+					"type": "input",
+					"left": 169,
+					"top": 165,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.Nickname"
+				},
+				"Nickname": {
+					"type": "text",
+					"text": "Nickname",
+					"top": 165,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"SuffixInput": {
+					"type": "input",
+					"left": 169,
+					"top": 201,
+					"width": 138,
+					"height": 17,
+					"dataSource": "Form:C1466.Suffix"
+				},
+				"Suffix": {
+					"type": "text",
+					"text": "Suffix",
+					"top": 202,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"HomeAddressInput": {
+					"type": "input",
+					"left": 169,
+					"top": 239,
+					"width": 262,
+					"height": 33,
+					"dataSource": "Form:C1466.HomeAddress"
+				},
+				"HomeAddress": {
+					"type": "text",
+					"text": "Home Address",
+					"top": 239,
+					"left": 47,
+					"width": 96,
+					"height": 16
+				},
+				"BusinessAddressInput": {
+					"type": "input",
+					"left": 169,
+					"top": 285,
+					"width": 262,
+					"height": 33,
+					"dataSource": "Form:C1466.BusinessAddress"
+				},
+				"BusinessAddress": {
+					"type": "text",
+					"text": "Business Address",
+					"top": 285,
+					"left": 47,
+					"width": 118,
+					"height": 31
+				},
+				"Title": {
+					"type": "text",
+					"text": "Title",
+					"top": 415,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"IsEmployee": {
+					"type": "checkbox",
+					"text": "Is Employee",
+					"top": 338,
+					"left": 47,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.IsEmployee"
+				},
+				"TitleInput": {
+					"type": "input",
+					"left": 169,
+					"top": 415,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Title"
+				},
+				"Department": {
+					"type": "text",
+					"text": "Department",
+					"top": 455,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"IsITLiaison": {
+					"type": "checkbox",
+					"text": "Is Primary IT Liaison",
+					"top": 528,
+					"left": 47,
+					"width": 196,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.IsITLiaison"
+				},
+				"AddButton": {
+					"type": "button",
+					"text": "Add",
+					"top": 568,
+					"left": 169,
+					"width": 124,
+					"height": 46,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/AddButton.4dm"
+				},
+				"DepartmentInput": {
+					"type": "input",
+					"left": 169,
+					"top": 455,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Department"
+				},
+				"Company": {
+					"type": "text",
+					"text": "Company",
+					"top": 492,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"CompanyInput": {
+					"type": "input",
+					"left": 169,
+					"top": 492,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.Company"
+				},
+				"Employee ID": {
+					"type": "text",
+					"text": "Employee ID",
+					"top": 378,
+					"left": 47,
+					"width": 112,
+					"height": 16
+				},
+				"EmployeeIDInput": {
+					"type": "input",
+					"left": 169,
+					"top": 378,
+					"width": 141,
+					"height": 17,
+					"dataSource": "Form:C1466.EmployeeID"
+				}
+			}
+		}
+	],
+	"geometryStamp": 153,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
